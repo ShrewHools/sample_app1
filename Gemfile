@@ -13,12 +13,13 @@ gem "twitter-bootstrap-rails"
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
-  gem 'rspec-rails', '~> 3.4.2'
+  gem 'rspec-rails', '~> 3.4.2'   #был 2.13.1
 end
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
-  gem 'capybara', '2.1.0'
+  gem 'capybara', '2.3.0'  #был 2.1.0
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 gem 'sass-rails', '4.0.1'

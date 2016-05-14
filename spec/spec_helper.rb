@@ -41,4 +41,7 @@ RSpec.configure do |config|
   config.order = "random"
 
   config.include Capybara::DSL
+  config.infer_spec_type_from_file_location!
 end
+
+
